@@ -1,0 +1,29 @@
+<!--
+1. select all 'h2' elements on the page.
+2. Select the h2 only within the 'section element'.
+3. select the h2 in anywhere within the main element.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css_Chpt2/styles.css">
+</head>
+
+<body>
+  <h1 id="demo">CSS selectors example</h1>
+  <section>
+    <h1 class="demo">Section heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos quisquam sequi, est eligendi reiciendis?</p>
+    <p class="demo">Nulla qui aperiam, cumque labore, repudiandae quae accusantium quos possimus illo, odit numquam, eveniet doloremque!</p>
+  </section>
+  <section>
+    <h1>Section heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos quisquam sequi, est eligendi reiciendis?</p>
+    <h2>Subheading</h2>
+    <p>Nulla qui aperiam, cumque labore, repudiandae quae accusantium quos possimus illo, odit numquam, eveniet doloremque!</p>
+  </section>
+</body>
+
+</html>
