@@ -1,14 +1,15 @@
-<!--
-1. select all 'h2' elements on the page.
-2. Select the h2 only within the 'section element'.
-3. select the h2 in anywhere within the main element.
--->
 <!DOCTYPE html>
 <html lang="en">
+<!--
+1. Add a color property to the body.
+2. Add a different colour for the h1 elements.
+3. Add a class to at least 2 elements and choose a new colour.
+4. Add an id to an element and choose a new colour.
+-->
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css_Chpt2/styles.css">
+  <link rel="stylesheet" href="css_Chpt2Selector/styles.css">
 </head>
 
 <body>
