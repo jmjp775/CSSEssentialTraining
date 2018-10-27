@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+1. Selet all of the h2 elemens on a page.
+2. Select only the h2 only within the section element.
+3. Select the h2 in anywhere within the main element.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css_ChptPseudoClass/styles.css">
+</head>
+<header>
+  <h1>header h1</h1>
+  <h2>header h2</h2>
+</header>
+
+<body>
+  <main>
+    <section>
+      <!--h2>section h2</h2-->
+      <a>no href</a>
+      <a href="#">link 1</a>
+      <a href="#">link 2</a>
+      <a href="#">link 3</a>
+      <a href="#">link 4</a>
+      <a href="#5">link 5</a>
+      <p>paragraph</p>
+      <input type="text">
+    </section>
+    <!--article>
+      <h2>article h2</h2>
+    </article-->
+</body>
+</main>
+
+</html>
