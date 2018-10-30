@@ -1,0 +1,31 @@
+/* Colour palette
+#fcaa67 - rajah
+#b0413e - pale carmine
+#ffffc7 - very pale yellow
+#548687 - wintergreen dream
+#473335 - taupe
+*/
+
+/* Global styles
+----------------------*/
+body {
+
+}
+
+/* Header and footer
+-------------------*/
+header, footer {
+  background: #473335;
+}
+
+/* Work Experience
+-------------------*/
+.work {
+  background: #ffffc7;
+}
+
+/* education
+-------------------*/
+.education {
+  background: #b0413e;
+}
