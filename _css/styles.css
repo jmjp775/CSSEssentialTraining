@@ -46,14 +46,15 @@ h2 {
   width: 30%;
   float: left;
   /* border: 1px solid black; */
-  min-height: 175px;
 }
 .column-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
   /* border: 1px solid black; */
-  min-height: 175px;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Header and footer
@@ -92,9 +93,21 @@ footer {
 .work {
   background: #EDF2F4;
 }
+h3 ~ p {
+  margin: 0;
+}
+.jo-description {
+  margin-bottom: 20px;
+}
+.job-description p:first-of-type {
+  /* margin: 0; */
+}
 
 /* education
 -------------------*/
 .education {
   background: #8D99AE;
+}
+p + h3 {
+  margin-top: 30px;
 }
